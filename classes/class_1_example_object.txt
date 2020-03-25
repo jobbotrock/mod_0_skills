@@ -1,0 +1,13 @@
+Instance: Joe's pint class
+
+attributes:
+material: "metal"
+maximumCapacity: 16
+isFull: true
+color: ["red"]
+
+methods:
+make_glass: material: glass
+half_full: maximumCapacity: 8
+pour_beer: isFull: true
+make_black: color: ["black"]
