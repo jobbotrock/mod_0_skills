@@ -1,0 +1,21 @@
+class: glass
+
+attributes:
+material (string)
+maximumCapacity (integer)
+isClear (boolean)
+color (array)
+
+methods:
+make_glass (turns glass material to glass)
+Example: make_glass: material: "glass"
+
+half_full (divides maximumCapacity by 2)
+var maximumCapacity = 10
+Example: half_full: maximumCapacity: 5
+
+pour_beer (add beer to glass)
+Example: pour_beer: isClear: false
+
+make_black (changes color to black)
+example: make_black: color: ["black"]
