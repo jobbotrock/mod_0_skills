@@ -1,0 +1,13 @@
+class: chair
+
+attributes:
+weight: (integer)
+hasFourLegs: (boolean)
+color: (array)
+totalHeight: flout
+
+methods:
+how_heavy (puts chair on scale)
+count_chair_legs (count total number of legs)
+spray_paint_yellow (paints chair yellow)
+tape_measure (calculates total chair height)
