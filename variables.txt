@@ -1,0 +1,9 @@
+var food = "yummy"
+var is_new = true
+var food = "so good"
+
+
+var num1 = 2
+var num2 = 6
+num1*num2 = 12
+var num3 = num1*num2
