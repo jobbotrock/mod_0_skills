@@ -1,13 +1,13 @@
-instance: bar stool
+Object: bar stool
 
-attributes:
+Attributes:
 weight: 7
 hasFourLegs: true
-color: ["green"]
+colors: ["green"]
 totalHeight: 4.5
 
-methods:
-how_heavy: weight: 7
-count_chair_legs: hasFourLegs: true
-spray_paint_yellow: color: ["yellow"]
-tape_measure: totalHeight: 4.5
+Methods:
+howHeavy: weight: 7
+countChairLegs: hasFourLegs: true
+sprayPaintLegs: colors: ["green", "yellow"]
+tapeMeasure: totalHeight: 4.5

@@ -1,13 +1,13 @@
-Instance: Joe's pint class
+Object: Joe's pint glass
 
-attributes:
+Attributes:
 material: "metal"
 maximumCapacity: 16
 isFull: true
-color: ["red"]
+colors: ["red', "green"]
 
-methods:
-make_glass: material: glass
-half_full: maximumCapacity: 8
-pour_beer: isFull: true
-make_black: color: ["black"]
+Methods:
+makeGlass: material: "glass"
+divideOnce: maximumCapacity: 8
+topMeOff: isFull: true
+addLogo: colors: ["red", "green", "black"]
