@@ -1,9 +1,13 @@
-var food = "yummy"
-var is_new = true
-var food = "so good"
+1) var food = "yummy";
+2) var isNew = true;
+3) food = "so good";
+4) var num1 = 2;
+5) var num2 = 6;
+6) console.log(num1 * num2);
+var num3 = 12;
+7) var movies = ["Braveheart", "Star Wars", "Goonies"];
 
-
-var num1 = 2
-var num2 = 6
-num1*num2 = 12
-var num3 = num1*num2
+9) movies.pop();
+console.log(movies);
+["Braveheart", ["Star Wars"]
+10) movies.length;
