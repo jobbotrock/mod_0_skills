@@ -1,13 +1,29 @@
-Class: Glass
+Class: Pint glass
 
 Attributes:
 material (string)
-maximumCapacity (integer)
+totalCapacity (float)
 isFull (boolean)
-colors (array)
+logoColors (array)
 
 Methods:
-makeGlass (turns material to glass)
-divideOnce (divides maximumCapacity by 2)
-topMeOff (makes glass full of beer)
-addLogo (adds a color to the colors array)
+makePlastic (changes material of pint glass)
+blowTorch (expands and stretches material)
+topOff (makes glass full of beer)
+paintLogo (adds a color to the colors array)
+
+==================New Class Example 2=============
+
+Human Being
+
+Attributes
+dimensions: (array) // arm span and height
+birthYear: (integer)
+bodyType: (string)
+facialHair: (boolean)
+
+Methods:
+calcApeIndex (subtracts height from arm width)
+fakeID: (subtracts 1 birthYear)
+liftWeights (builds muscle)
+turnHipster (grows beard) // maybe this could be used for a variety of different contexts, but we'll say grow beard

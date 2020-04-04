@@ -1,13 +1,30 @@
-Object: Joe's pint glass
+Object: Joe's pint
 
 Attributes:
-material: "metal"
-maximumCapacity: 16
-isFull: true
-colors: ["red', "green"]
+material: "plastic"
+totalCapacity: 16
+isFull: false;
+logoColors: ["red', "green"]
 
 Methods:
 makeGlass: material: "glass"
-divideOnce: maximumCapacity: 8
-topMeOff: isFull: true
-addLogo: colors: ["red", "green", "black"]
+blowTorch: TotalCapacity: 32
+topOff: isFull: true
+logoAddColor: logoColors: ["red", "green", "black"]
+
+
+++++++++++++++New Object Example+++++++
+
+Object: Joe Varela (in my college years)
+
+Attributes:
+dimensions: [72,69]
+birthYear: 1983
+bodyType: "skinny"
+facialHair: false;
+
+Methods:
+calcApeIndex: dimension: 3
+fakeID: birthYear: 1982
+liftWeights: bodyType: "beef cake!"
+turnHipster: facialHair: true;

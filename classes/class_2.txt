@@ -1,13 +1,30 @@
-Class: Chair
+Class: chair // New and improved
 
 Attributes:
-weight: (integer)
-hasFourLegs: (boolean)
+material: (string)
+legCount: (integer)
 colors: (array)
-totalHeight (flout)
+canSwivel: (boolean)
 
 Methods:
-howHeavy (puts chair on scale)
-countChairLegs (count total number of legs)
-sprayPaintLegs (adds a color to colors array)
-tapeMeasure (calculates total chair height)
+makeWooden (changes material of chair)
+chopLeg: (remove one leg from chair)
+calcRGB: (returns colors in RGB array)
+addSwivel: (make seat spin)
+
++++++++++++++ New Example ++++++++++++++++++++++++++
+
+Class: Music Station // radio, spotify, pandora etc
+
+Attributes:
+songNameArtist (string)
+songLength (flout)
+hasCommercials (boolean)
+nextUp (array/hash)
+
+
+Methods:
+changeStation (changes songNameArtist)
+AddCommercial (add 30 second commercial)
+buySubscription (no more commercials)
+skipSong (plays next song in array index)

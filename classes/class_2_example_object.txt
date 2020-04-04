@@ -1,13 +1,34 @@
-Object: bar stool
+Object: Joe's barstool
 
 Attributes:
-weight: 7
-hasFourLegs: true
-colors: ["green"]
-totalHeight: 4.5
+material: "metal"
+legCount: 4
+colors: [green, blue]
+canSwivel: false;
+
 
 Methods:
-howHeavy: weight: 7
-countChairLegs: hasFourLegs: true
-sprayPaintLegs: colors: ["green", "yellow"]
-tapeMeasure: totalHeight: 4.5
+makeWooden: material: "wood"
+chopLeg: legCount: 3
+calcRGB: colors: ([107,178,140], [72,139,194])
+addSwivel: canSwivel: true
+
+
++++++++++ New Object Example +++++++
+
+Object: Britney Spears Radio
+
+Attributes:
+songNameArtist: "Toxic", "Britney Spears"
+hasCommercials: true;
+songLength: 4:02
+nextUp: ["Oops... I Did It Again": 4:12]
+
+// Would "nextUp" be considered a string or array data?
+
+
+Methods:
+changeStation: songNameArtist: "Hips Don't Lie", "Shakira"
+addCommercial: songLength: 4:09
+buySubscription: hasCommercials: false: songLength: 3:39 // I'm assuming methods can affect more than one attribute?
+playNext: nextUp: {"Whenever, Wherever": 3:16}
