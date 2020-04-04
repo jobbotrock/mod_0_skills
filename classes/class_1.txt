@@ -1,8 +1,8 @@
-Class: Pint glass
+Class: Glass // used for drinking
 
 Attributes:
 material (string)
-totalCapacity (float)
+totalCapacity (integer)
 isFull (boolean)
 logoColors (array)
 
@@ -10,7 +10,7 @@ Methods:
 makePlastic (changes material of pint glass)
 blowTorch (expands and stretches material)
 topOff (makes glass full of beer)
-paintLogo (adds a color to the colors array)
+logoAddColor (adds a color to the colors array)
 
 ==================New Class Example 2=============
 
